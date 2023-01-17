@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>HTML + CSS: Quick Start</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="form">
+      <div class="title"><h3>User Information</h3></div>
+      <div class="body">
+        <div class="row">
+          <label for="name">Name</label><br />
+          <input type="text" id="name" />
+        </div>
+        <div class="row">
+          <label for="email">E-mail</label><br />
+          <input type="text" id="email" />
+        </div>
+        <div class="row">
+          <label for="age">Age</label><br />
+          <input type="number" id="age" />
+        </div>
+        <div class="row">
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday" />
+        </div>
+        <div class="row">
+          <label for="age">Gender</label><br />
+          <div class="panel">
+            Male <input type="radio" name="gender" checked />
+            Female <input type="radio" name="gender" />
+          </div>
+        </div>
+        <div class="row">
+          <label for="age">Preference</label><br />
+          <div class="panel">
+            <input type="checkbox" />Apple<br />
+            <input type="checkbox" checked />Orange<br />
+            <input type="checkbox" />Banana
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <input type="submit" value="Submit">
+        <input type="button" value="Close">
+      </div>
+    </div>
+  </body>
+</html>

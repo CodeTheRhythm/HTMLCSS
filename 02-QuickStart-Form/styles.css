@@ -1,0 +1,66 @@
+* {
+  font-family: arial;
+}
+
+label {
+  font-weight: bold;
+  color: blue;
+}
+
+input[type=text],
+input[type=number],
+input[type=date] {
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+input[type=radio] {
+  margin-right: 40px;
+}
+
+.form {
+  border: 1px solid lightgray;
+  width: 600px;
+}
+
+.title {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.title > h3 {
+  margin: 0;
+}
+
+.body {
+  padding: 10px;
+}
+
+.body .row {
+  margin-bottom: 10px;
+}
+
+.body .row .panel {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.footer {
+  border-top: 1px solid lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer > input {
+  border: 1px solid gray;
+  width: 80px;
+  padding: 5px
+}
